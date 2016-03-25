@@ -1,0 +1,170 @@
+body,img{
+	-moz-transition:-moz-transform 0.3s ease-in;
+	-webkit-transition:-webkit-transform 0.3s ease-in;
+	-o-transition:-o-transform 0.3s ease-in;
+}
+nav ul a {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+	color: #EB7F00;
+}
+
+#section1{
+	background: url(../images/light.png) no-repeat center fixed; /*Full Witdth background image*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	padding-bottom: 150px;
+}
+
+#section2{
+	background-color: white;
+	padding-top: 60px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+	padding-bottom: 60px;
+}
+
+#section3{
+	background: url(../images/keyboard.png) no-repeat center fixed; /*Full Witdth background image*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	padding-top: 80px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+	padding-bottom: 80px;
+
+}
+
+#section4{
+	background-color: white;
+	padding-top: 60px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+	padding-bottom: 60px;
+}
+
+#section5{
+	background: url(../images/1.png) no-repeat center fixed; /*Full Witdth background image*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	height: 500px;
+	padding-top: 80px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+}
+
+.brand-logo {
+	margin-top: 10px;
+	height: 50px;
+	width: auto;
+}
+
+.btn-flat {
+	border: 1px solid white;
+	color: white;
+}
+
+.btn-flat:hover, .active {
+	background-color: #FFBA2B;
+	border-color: #FFBA2B;
+	color: white;
+}
+
+nav ul a:hover {
+	background-color: #FFBA2B;
+	color: white;
+	transition: ease 500ms;
+}
+
+blockquote {
+	border-left-color: white;
+	font-size: 1.6em;
+	font-style: italic;
+	font-family: 'sentinel';
+}
+
+footer.page-footer{
+	background: #373737;
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 600px) {
+	.brand-logo {
+		margin-top: 8px;
+		height: 40px;
+		width: auto;
+	}
+	#section1{
+		background: url(../images/light.png) no-repeat center fixed; /*Full Witdth background image*/
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		color: white;
+		padding-bottom: 150px;
+	}
+
+	.otherpage-header h2 {
+		text-align: center;
+	}
+}
+
+.thumbnail {
+	height: 250px;
+	width: auto;
+	align-content: center;
+}
+
+.thumbnail:hover {
+	-moz-transform:scale(1.05);
+	-webkit-transform:scale(1.05);
+	-o-transform:scale(1.05);
+}
+
+.otherpage-header{
+	background: url(../images/light.png) no-repeat center fixed; /*Full Witdth background image*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 150px;
+	color: white;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+	.otherpage-header h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+
+.curveLines {
+	height: 50px;
+}
+
+#googleMap {
+	width: 100%;
+	height:500px;
+}
+
+.profileImage {
+	width: 100%;
+}
+
+
